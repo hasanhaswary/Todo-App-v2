@@ -1,7 +1,7 @@
 {
-  "name": "simple-todo-app",
+  "name": "Todo-app",
   "version": "1.0.0",
-  "description": "Full Stack Todo App using JavaScript, HTML, CSS, Node.js, SQLite.",
+  "description": "Dockerized full stack Todo application using NodeJS (backend), PostgreSQL (database), Prisma (ORM) and JWT Authentication",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch --env-file=.env --experimental --experimental-strip-types --experimental-sqlite ./src/server.js",
@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hasanhaswary/Simple-Todo-App.git"
+    "url": "git+https://github.com/hasanhaswary/Todo-App-v2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/hasanhaswary/Simple-Todo-App/issues"
+    "url": "https://github.com/hasanhaswary/Todo-App-v2/issues"
   },
-  "homepage": "https://github.com/hasanhaswary/Simple-Todo-App#readme",
+  "homepage": "https://github.com/hasanhaswary/Todo-App-v2#readme",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "express": "^5.2.1",
